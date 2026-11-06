@@ -1,0 +1,4 @@
+{"setting": "no-dependency", "interval": "busy", "num_agents": 500, "base_step": 4320, "target_step": 4680, "duration": 7140.9572949409485, "duration_net": 7140.833990812302}
+{"setting": "critical", "interval": "busy", "num_agents": 500, "base_step": 4320, "target_step": 4680, "duration": 1912.8639678955078, "duration_net": 1904.6920747756958}
+{"setting": "oracle", "interval": "busy", "num_agents": 500, "base_step": 4320, "target_step": 4680, "duration": 8313.251723766327, "duration_net": 8305.545353412628}
+{"setting": "async", "interval": "busy", "num_agents": 500, "base_step": 4320, "target_step": 4680, "duration": 8321.074072360992, "duration_net": 8312.93386554718}

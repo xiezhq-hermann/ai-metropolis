@@ -1,0 +1,15 @@
+AI Metropolis
+Copyright 2024 The AI Metropolis Authors
+
+This project is licensed under the Apache License, Version 2.0.
+
+It contains material derived from Generative Agents
+(https://github.com/joonspk-research/generative_agents), also licensed under
+the Apache License, Version 2.0:
+
+    Copyright 2023 Joon Sung Park
+
+The derived material comprises the world and persona assets under
+src/aimetropolis/generative_agents_simple/assets and examples/generative_agents/assets,
+the agent logic and prompts in examples/generative_agents, and the prompts
+recorded in the dataset.

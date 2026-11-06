@@ -1,0 +1,13 @@
+{"setting": "single-thread", "interval": "busy", "num_agents": 25, "base_step": 4320, "target_step": 4680, "duration": 2474.416722536087, "duration_net": 2468.581906080246}
+{"setting": "sync", "interval": "busy", "num_agents": 25, "base_step": 4320, "target_step": 4680, "duration": 1360.7190551757812, "duration_net": 1354.6654918193817}
+{"setting": "async", "interval": "busy", "num_agents": 25, "base_step": 4320, "target_step": 4680, "duration": 766.9675221443176, "duration_net": 760.9810314178467}
+{"setting": "oracle", "interval": "busy", "num_agents": 25, "base_step": 4320, "target_step": 4680, "duration": 623.6495282649994, "duration_net": 617.5716187953949}
+{"setting": "no-dependency", "interval": "busy", "num_agents": 25, "base_step": 4320, "target_step": 4680, "duration": 107.06284642219543, "duration_net": 107.0270767211914}
+{"setting": "critical", "interval": "busy", "num_agents": 25, "base_step": 4320, "target_step": 4680, "duration": 490.8472933769226, "duration_net": 484.46583008766174}
+{"setting": "single-thread", "interval": "quiet", "num_agents": 25, "base_step": 2160, "target_step": 2520, "duration": 404.5372414588928, "duration_net": 395.6320650577545}
+{"setting": "sync", "interval": "quiet", "num_agents": 25, "base_step": 2160, "target_step": 2520, "duration": 191.8045494556427, "duration_net": 183.0146405696869}
+{"setting": "async", "interval": "quiet", "num_agents": 25, "base_step": 2160, "target_step": 2520, "duration": 165.71811485290527, "duration_net": 155.72491598129272}
+{"setting": "oracle", "interval": "quiet", "num_agents": 25, "base_step": 2160, "target_step": 2520, "duration": 129.26489639282227, "duration_net": 122.21356892585754}
+{"setting": "no-dependency", "interval": "quiet", "num_agents": 25, "base_step": 2160, "target_step": 2520, "duration": 25.97818398475647, "duration_net": 25.950722455978394}
+{"setting": "critical", "interval": "quiet", "num_agents": 25, "base_step": 2160, "target_step": 2520, "duration": 117.03995037078857, "duration_net": 104.88933539390564}
+{"setting": "no-dependency", "interval": "busy", "num_agents": 1000, "base_step": 4320, "target_step": 4680, "duration": 1816.0231504440308, "duration_net": 0}

@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61", "wheel", "pybind11>=2.10"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aimetropolis"
+version = "0.1.0"
+description = "Out-of-order execution engine for large language model agent simulations"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "Apache-2.0" }
+authors = [
+    { name = "Zhiqiang Xie" },
+    { name = "Hao Kang" },
+    { name = "Ying Sheng" },
+    { name = "Tushar Krishna" },
+    { name = "Kayvon Fatahalian" },
+    { name = "Christos Kozyrakis" },
+]
+dependencies = [
+    "matplotlib",
+    "openai>=1.0",
+    "pandas",
+    "pillow",
+    "redis",
+    # the benchmarks use the 0.1 client and server flags (--tp, --dp, --disable-radix-cache)
+    "sglang>=0.1.17,<0.2",
+    "tiktoken",
+    "tqdm",
+]
+
+[project.urls]
+Homepage = "https://github.com/xiezhq-hermann/ai-metropolis"
+Paper = "https://arxiv.org/abs/2411.03519"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"aimetropolis.generative_agents_simple" = ["assets/*.json", "assets/maze/*", "assets/personas/*"]

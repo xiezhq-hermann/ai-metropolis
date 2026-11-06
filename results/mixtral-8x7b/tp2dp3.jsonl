@@ -1,0 +1,7 @@
+{"setting": "oracle", "interval": "busy", "num_agents": 1000, "base_step": 4320, "target_step": 4680, "duration": 5138.29393196106, "duration_net": 5130.760549783707}
+{"setting": "async", "interval": "busy", "num_agents": 1000, "base_step": 4320, "target_step": 4680, "duration": 5520.258221149445, "duration_net": 5513.351681232452}
+{"setting": "sync", "interval": "busy", "num_agents": 1000, "base_step": 4320, "target_step": 4680, "duration": 14301.814800262451, "duration_net": 14293.596535205841}
+{"setting": "oracle", "interval": "busy", "num_agents": 500, "base_step": 4320, "target_step": 4680, "duration": 3447.3192903995514, "duration_net": 3439.929041147232}
+{"setting": "async", "interval": "busy", "num_agents": 500, "base_step": 4320, "target_step": 4680, "duration": 3736.5269367694855, "duration_net": 3728.336573600769}
+{"setting": "sync", "interval": "busy", "num_agents": 500, "base_step": 4320, "target_step": 4680, "duration": 10278.057756900787, "duration_net": 10270.58744764328}
+{"setting": "oracle", "interval": "busy", "num_agents": 100, "base_step": 4320, "target_step": 4680, "duration": 1125.0097134113312, "duration_net": 1117.794541835785}
